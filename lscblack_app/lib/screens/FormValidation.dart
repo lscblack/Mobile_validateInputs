@@ -58,6 +58,7 @@ class _FormvalidationState extends State<Formvalidation> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
         toolbarHeight: 100,
         title: 
         const Center(child: Text('Patient Information Form',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30))),
@@ -260,8 +261,8 @@ class _FormvalidationState extends State<Formvalidation> {
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       padding: EdgeInsets.all(20),
-                      backgroundColor: Colors.blue, // Replaces primary
-                      foregroundColor: Colors.white, // Replaces onPrimary
+                      backgroundColor: Colors.blue, 
+                      foregroundColor: Colors.white, 
                     ),
                     onPressed: _submitForm,
                     child: const Text('Submit'),
